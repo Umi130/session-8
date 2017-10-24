@@ -1,25 +1,24 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
-    photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    firstName: "Océane",
+    lastName: "Cornevin",
+    photo: "O_Cornevin.jpg",
+    twitter: "O_Cornevin",
+    github: "Umi130",
+    mail: "o.cornevin@gmail.com",
     experiences: [{
-      dateBegin: "2014",
-      dateEnd: "Today",
-      name: "Agence France Presse",
-      title: "Datajournalist",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      dateBegin: "Mars 2017",
+      dateEnd: "Aujourd'hui",
+      name: "ZED",
+      title: "Chargée de développement documentaire",
+      description: "Enquête, recherche et écriture de dossiers documentaire proposés aux chaînes françaises et internationales (ARTE, RMC, NHK, France Télévisions)"
     }, {
-      dateBegin: "Été 2013",
+      dateBegin: "Octobre 2017",
       dateEnd: false,
-      name: "Le Monde.fr",
-      title: "Data-journalist",
-      description: false
+      name: "CNN - The Paris Bureau",
+      title: "Assistante de rédaction",
+      description: "Proposition d’idées de reportage, enquête et vérification de la véracité d’informations pour le compte des journalistes de CNN, suggestions d’intervenants puis organisation des interviews."
     }, {
       dateBegin: "2012",
       dateEnd: "2013",
